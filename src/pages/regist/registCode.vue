@@ -71,7 +71,7 @@
                 }
                 config.request('post','/api/user/code',params).then((res) => {
                     var data = res.data;
-                    if (data.code == '000') {
+                    if (data.code == config.successCode) {
                         this.timeDown();//倒计时
                     }
                 }).catch((err) => {
@@ -146,7 +146,7 @@
     }
     .reg-con .phone-p {
         padding-bottom: .5rem;
-        border-bottom: 2px solid #eee;
+        border-bottom: 0.08rem solid #eee;
         font-size: .8rem;
         overflow: hidden;
         height: 2rem;

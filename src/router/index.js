@@ -4,6 +4,7 @@ import login from '@/pages/login/log'
 import home from '@/pages/home/home'
 import regist from '@/pages/regist/regist'
 import registCode from '@/pages/regist/registCode'
+import registPswd from '@/pages/regist/registPswd'
 
 Vue.use(Router)
 
@@ -28,6 +29,11 @@ export default new Router({
             path: '/registCode',
             name: '注册',
             component: registCode
+        },
+        {
+            path: '/registPswd',
+            name: '注册',
+            component: registPswd
         },
     ]
 })

@@ -26,7 +26,6 @@
             return {
                 msg: '注册',
                 phone: '',
-                regPhone:/^1[3456789]\d{9}$/,
                 isActive:false,
                 isClick:true,//按钮是否可以点击
             }
@@ -44,7 +43,7 @@
                         var val = this.phone.split('-');
                         var str = '';
                         val.forEach((item) => {str += item})
-                        if (this.regPhone.test(str) == false) {
+                        if (config.regPhone.test(str) == false) {
                             Toast({
                                 message: '请输入正确的手机号！',
                                 position: 'middle',
@@ -67,9 +66,9 @@
                 var params = {
                     phone:str
                 }
-                config.request('post','/api/user/regist',params).then(res => {
+                config.request('post','/api/user/registPhone',params).then(res => {
                     var data = res.data;
-                    if (data.code == '000') {
+                    if (data.code == config.successCode) {
                         this.$router.push({path:'/registCode',query:{phone:this.phone}});
                     }
                 }).catch(err => {
@@ -119,7 +118,7 @@
     }
     .reg-con .phone-p {
         padding-bottom: 1rem;
-        border-bottom: 2px solid #eee;
+        border-bottom: 0.08rem solid #eee;
         font-size: 0.8rem;
         overflow: hidden;
         height: 1rem;
