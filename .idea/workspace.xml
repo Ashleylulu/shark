@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed59486b-3743-4573-860d-bea1d7820513" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/regist/registPswd.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/regist/regist.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/regist/regist.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/regist/registCode.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/regist/registCode.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/common.js" afterDir="false" />
-    </list>
+    <list default="true" id="ed59486b-3743-4573-860d-bea1d7820513" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -34,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/src/pages/regist/registPswd.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
-              <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+              <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -42,8 +35,8 @@
       <file leaf-file-name="registCode.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/regist/registCode.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="67" column="18" lean-forward="true" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
+            <state relative-caret-position="368">
+              <caret line="72" column="39" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="39" />
               <folding>
                 <element signature="e#948#978#0" expanded="true" />
               </folding>
@@ -129,30 +122,6 @@
             <path>
               <item name="shark" type="b2602c69:ProjectViewProjectNode" />
               <item name="shark" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shark" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shark" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="regist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shark" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="router" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shark" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -230,12 +199,12 @@
       <workItem from="1574328754823" duration="1472000" />
       <workItem from="1574406484426" duration="2092000" />
       <workItem from="1574412444181" duration="244000" />
-      <workItem from="1574655768362" duration="3449000" />
+      <workItem from="1574655768362" duration="3623000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25842000" />
+    <option name="totallyTimeSpent" value="26016000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="809" extended-state="0" />
@@ -556,7 +525,7 @@
     <entry file="file://$PROJECT_DIR$/src/pages/regist/registPswd.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -569,8 +538,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/regist/registCode.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="67" column="18" lean-forward="true" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
+        <state relative-caret-position="368">
+          <caret line="72" column="39" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="39" />
           <folding>
             <element signature="e#948#978#0" expanded="true" />
           </folding>
